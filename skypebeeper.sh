@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 login () {
-	timeout 25s skype --pipelogin < lol
+	timeout 25s skype --pipelogin < log
 }
 
 beep () {
@@ -11,6 +11,8 @@ beep () {
 	sleep 27
 }
 
+echo $1 $2 > log;
 while read NUM; do
 	login & beep $NUM
 done < $3
+rm log
