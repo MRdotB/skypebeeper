@@ -41,11 +41,11 @@ will be treated
 This script will write in file
 all numbers formated for skypebeeper
 
-Be aware that numbers will be formatted as french mobile numbers
-Hence they will be prefixed by +33
-You may want to replace by your country prefix
+Be aware that numbers will be formatted as french mobile numbers__
+Hence they will be prefixed by +33__
+You may want to replace by your country prefix__
 
-If this is the case,
+If this is the case,__
 Just update the +33 in sed call in line 5
 
 Use ./loginmobile.sh loginfile.txt outputfile.txt
