@@ -1,3 +1,20 @@
+# Login number
+
+For those who use ldap
+
+For each login in your input file
+
+loginfile.txt has to bo formatted like this
+```
+login1
+login2
+```
+
+This script will write in file
+all numbers formated for skypebeeper
+
+Use ./loginmobile.sh loginfile.txt outputfile.txt
+
 # Skype Beeper
 
 How to use ?
